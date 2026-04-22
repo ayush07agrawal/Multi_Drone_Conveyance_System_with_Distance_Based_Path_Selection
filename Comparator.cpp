@@ -83,9 +83,9 @@ void Comparator::printComparison(const std::vector<ChargingStation>& stations) {
 
     // ── Summary ───────────────────────────────────────────────────────────
     std::cout << "\n  Legend:\n"
-              << "    rho       — traffic intensity (lambda / mu)\n"
-              << "    Wq        — average waiting time in queue\n"
-              << "    W         — average sojourn time (Wq + 1/mu)\n"
-              << "    err%      — |theory - sim| / theory * 100\n"
+              << "    rho       - traffic intensity (lambda / mu)\n"
+              << "    Wq        - average waiting time in queue\n"
+              << "    W         - average sojourn time (Wq + 1/mu)\n"
+              << "    err%      - |theory - sim| / theory * 100\n"
               << "  Lower err% indicates better convergence of simulation to theory.\n";
 }

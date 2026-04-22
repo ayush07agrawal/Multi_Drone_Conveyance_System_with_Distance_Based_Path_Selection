@@ -37,7 +37,7 @@ bool ChargingStation::isStable() const {
 double ChargingStation::avgQueueLength() const {
     if (!isStable()) return INF;
     double rho = trafficIntensity();
-    return (rho * rho) / (1.0 - rho);
+    return (rho) / (1.0 - rho);
 }
 
 double ChargingStation::avgWaitingTime() const {
