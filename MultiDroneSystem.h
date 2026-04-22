@@ -50,7 +50,7 @@ public:
      * run()
      *   totalArrivals — number of drone arrivals to simulate (post warm-up)
      *                   Higher → slower but more accurate simulation results.
-     *                   Default: 50 000
+     *                   Default: 50000
      */
     void run(int totalArrivals = 50000);
 };

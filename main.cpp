@@ -17,13 +17,13 @@
 #include <stdexcept>
 
 int main() {
-    std::cout << "================================================================\n"
-              << "  Multi-Drone Conveyance System — Theory vs Simulation\n"
+    std::cout << std::string(70, '=') << std::endl
+              << "  Multi-Drone Conveyance System - Theory vs Simulation\n"
               << "  M/M/1 Closed-Form  |  Discrete-Event Simulation\n"
-              << "================================================================\n\n"
+              << std::string(70, '=') << std::endl << std::endl 
               << "  [1] Built-in example  (8 stations, 6 flows, 50000 arrivals)\n"
-              << "  [2] Built-in example  (high accuracy — 200000 arrivals)\n"
-              << "  [3] Interactive — enter custom topology\n\n"
+              << "  [2] Built-in example  (high accuracy - 200000 arrivals)\n"
+              << "  [3] Interactive - enter custom topology\n\n"
               << "Choice: ";
 
     int choice;
